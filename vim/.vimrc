@@ -1,3 +1,4 @@
+" 参考地址：https://www.jianshu.com/p/a0b452f8f720
 " Use Vim settings, rather then Vi settings. This setting must be as early as
 " possible, as it has side effects.
 set nocompatible
