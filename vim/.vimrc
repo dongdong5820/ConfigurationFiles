@@ -83,7 +83,16 @@ if executable('ag')
   let g:ctrlp_use_caching = 0
 endif
 
+
+if has("gui_runing")
+  set background=light
+else
+  set background=dark
+  set t_Co=256
+endif
+
 " Color scheme
+syntax enable
 colorscheme molokai
 highlight NonText guibg=#060606
 highlight Folded  guibg=#0A0A0A guifg=#9090D0
