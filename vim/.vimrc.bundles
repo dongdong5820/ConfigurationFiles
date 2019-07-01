@@ -45,3 +45,5 @@ Bundle 'evanmiller/nginx-vim-syntax'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'tomasr/molokai'
 Bundle 'klen/python-mode'
+
+filetype on
